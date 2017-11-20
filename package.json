@@ -1,0 +1,31 @@
+{
+  "name": "atom-nba",
+  "description": "NBA Information in Atom",
+  "version": "1.0.0",
+  "author": "Jae Bradley",
+  "bugs": "https://github.com/jaebradley/atom-nba/issues",
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "nba-emoji": "0.0.5",
+    "nba-stats-client": "0.0.4",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-marquee": "^0.1.1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/jaebradley/atom-nba/",
+  "keywords": [
+    "nba"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom/Main",
+  "repository": "https://github.com/jaebradley/atom-nba"
+}
