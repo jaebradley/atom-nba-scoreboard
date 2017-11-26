@@ -12,7 +12,8 @@
     }
   },
   "dependencies": {
-    "nba-emoji": "0.0.5",
+    "moment-timezone": "^0.5.14",
+    "nba-emoji": "^0.0.6",
     "nba-stats-client": "0.0.4",
     "react": "^15.3.0",
     "react-dom": "^15.3.0",
