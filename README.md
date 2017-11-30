@@ -1,1 +1,1 @@
-# atom-nba
+# atom-nba-scoreboard
