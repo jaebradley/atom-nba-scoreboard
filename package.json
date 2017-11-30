@@ -1,9 +1,9 @@
 {
-  "name": "atom-nba",
+  "name": "nba-scoreboard",
   "description": "NBA Information in Atom",
   "version": "1.0.0",
   "author": "Jae Bradley",
-  "bugs": "https://github.com/jaebradley/atom-nba/issues",
+  "bugs": "https://github.com/jaebradley/atom-nba-scoreboard/issues",
   "consumedServices": {
     "status-bar": {
       "versions": {
@@ -22,11 +22,11 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "homepage": "https://github.com/jaebradley/atom-nba/",
+  "homepage": "https://github.com/jaebradley/atom-nba-scoreboard/",
   "keywords": [
     "nba"
   ],
   "license": "MIT",
   "main": "./lib/atom/Main",
-  "repository": "https://github.com/jaebradley/atom-nba"
+  "repository": "https://github.com/jaebradley/atom-nba-scoreboard"
 }
