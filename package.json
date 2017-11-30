@@ -1,0 +1,32 @@
+{
+  "name": "nba-scoreboard",
+  "description": "NBA Information in Atom",
+  "version": "1.0.0",
+  "author": "Jae Bradley",
+  "bugs": "https://github.com/jaebradley/atom-nba-scoreboard/issues",
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.14",
+    "nba-emoji": "^0.0.6",
+    "nba-stats-client": "0.0.4",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "react-marquee": "^0.1.1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/jaebradley/atom-nba-scoreboard/",
+  "keywords": [
+    "nba"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom/Main",
+  "repository": "https://github.com/jaebradley/atom-nba-scoreboard"
+}
